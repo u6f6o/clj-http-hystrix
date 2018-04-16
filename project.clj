@@ -1,7 +1,7 @@
 (defproject clj-http-hystrix "0.1.7-SNAPSHOT"
 
   :description "A Clojure library to wrap clj-http requests as hystrix commands"
-  :url "https://github.com/joelittlejohn/clj-http-hystrix"
+  :url "https://github.com/u6f6o/clj-http-hystrix"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
