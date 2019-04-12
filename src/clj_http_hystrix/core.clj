@@ -129,7 +129,7 @@
                         (getFallback []
                           (MDC/setContextMap logging-context)
                           (log-error (:hystrix/command-key req) this)
-                          (let [exception (.getFailedExecutionException ^HystrixCommand this)
+                          (let [exception (.getExecutionException ^HystrixCommand this)
                                 response (when exception (get-thrown-object exception))]
                             (fallback req response)))
                         (run []
